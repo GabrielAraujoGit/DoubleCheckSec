@@ -1,6 +1,25 @@
-# DoubleCheckSec - Sistema de Verificação em Duas Etapas com PyOTP
+<!-- Banner central -->
+<div align="center">
+  <img src="https://img.shields.io/badge/DoubleCheckSec-%23000000.svg?style=for-the-badge&logo=python&logoColor=white" height="32"/>
+  <img src="https://img.shields.io/badge/2FA%20Security-%23282828.svg?style=for-the-badge&logo=authy&logoColor=white" height="32"/>
+  <img src="https://img.shields.io/badge/Open%20Source-%23181717.svg?style=for-the-badge&logo=github&logoColor=white" height="32"/>
+</div>
 
-O DoubleCheckSec é um projeto que implementa um sistema de verificação em duas etapas (2FA) utilizando a biblioteca PyOTP. A verificação em duas etapas é uma técnica de segurança que adiciona uma camada extra de proteção às contas de usuário, exigindo que o usuário forneça um código de verificação adicional, além da senha, para acessar recursos protegidos.
+<h1 align="center">DoubleCheckSec</h1>
+
+<p align="center">
+  <b>Sistema de Verificação em Duas Etapas com PyOTP</b><br/>
+  Adiciona uma camada extra de segurança às suas aplicações com autenticação 2FA simples e eficaz.
+    
+</p>
+
+<div align="center">
+  <img src="https://img.shields.io/github/license/gabriel-araujo-git/DoubleCheckSec-?style=flat-square&logo=github"/>
+  <img src="https://img.shields.io/github/last-commit/gabriel-araujo-git/DoubleCheckSec-?style=flat-square"/>
+  <img src="https://img.shields.io/github/issues/gabriel-araujo-git/DoubleCheckSec-?style=flat-square"/>
+  <img src="https://img.shields.io/github/stars/gabriel-araujo-git/DoubleCheckSec-?style=flat-square&color=yellow"/>
+  <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB.svg?style=flat-square&logo=python&logoColor=white"/>
+</div>
 
 ## Funções Principais
 

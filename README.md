@@ -14,12 +14,13 @@
 </p>
 
 <div align="center">
-  <img src="https://img.shields.io/github/license/gabriel-araujo-git/DoubleCheckSec-?style=flat-square&logo=github"/>
-  <img src="https://img.shields.io/github/last-commit/gabriel-araujo-git/DoubleCheckSec-?style=flat-square"/>
-  <img src="https://img.shields.io/github/issues/gabriel-araujo-git/DoubleCheckSec-?style=flat-square"/>
-  <img src="https://img.shields.io/github/stars/gabriel-araujo-git/DoubleCheckSec-?style=flat-square&color=yellow"/>
-  <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB.svg?style=flat-square&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/github/license/gabriel-araujo-git/DoubleCheckSec-?style=for-the-badge&logo=github"/>
+  <img src="https://img.shields.io/github/last-commit/gabriel-araujo-git/DoubleCheckSec-?style=for-the-badge"/>
+  <img src="https://img.shields.io/github/issues/gabriel-araujo-git/DoubleCheckSec-?style=for-the-badge"/>
+  <img src="https://img.shields.io/github/stars/gabriel-araujo-git/DoubleCheckSec-?style=for-the-badge&color=yellow"/>
+  <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB.svg?style=for-the-badge&logo=python&logoColor=white"/>
 </div>
+
 
 ## Funções Principais
 

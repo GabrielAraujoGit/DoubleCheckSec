@@ -1,0 +1,16 @@
+version: 2
+updates:
+  # Atualizar dependências Python (pip)
+  - package-ecosystem: "pip"
+    directory: "/"                # Onde está seu requirements.txt
+    schedule:
+      interval: "weekly"
+    commit-message:
+      prefix: "[deps]"
+      include: "scope"
+
+  # Atualizar GitHub Actions (boa prática)
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"

@@ -2,6 +2,7 @@ import veri2step
 from cryptography.fernet import Fernet
 import os
 
+
 SECRET_FILE = "secret.enc"
 FERNET_KEY_FILE = "secret.key"
 

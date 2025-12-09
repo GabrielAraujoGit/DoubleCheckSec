@@ -1,81 +1,76 @@
-<!-- Banner -->
+<!-- Security Badges -->
 <div align="center">
-  <img src="https://img.shields.io/badge/DoubleCheckSec-%23000000.svg?style=for-the-badge&logo=python&logoColor=white" height="32"/>
-  <img src="https://img.shields.io/badge/Security%20Policy-%23181717.svg?style=for-the-badge&logo=github&logoColor=white" height="32"/>
-  <img src="https://img.shields.io/badge/Dependabot-Active-blue?style=for-the-badge&logo=dependabot" height="32"/>
+  <img src="https://img.shields.io/badge/Security-Responsible%20Disclosure-0D1117?style=for-the-badge&logo=shield&logoColor=00e676"/>
+  <img src="https://img.shields.io/badge/2FA%20Enabled-Yes-0D1117?style=for-the-badge&logo=authy&logoColor=00e676"/>
+  <img src="https://img.shields.io/badge/Best%20Practices-Followed-0D1117?style=for-the-badge&logo=github&logoColor=00e676"/>
 </div>
 
-<h1 align="center">Política de Segurança</h1>
+<h1 align="center">Security Policy</h1>
 
+## 🔐 Supported Versions
 
----
+A tabela abaixo mostra quais versões do projeto recebem atualizações de segurança:
 
-## 🔒 Princípios Gerais
-
-- **Transparência:** qualquer vulnerabilidade identificada será documentada e corrigida publicamente.  
-- **Responsabilidade:** não são aceitos testes que prejudiquem usuários, infraestruturas ou terceiros.  
-- **Rapidez:** priorizamos correções de segurança em relação a novas features.
-
----
-
-## 🧠 Boas Práticas Adotadas
-
-- Autenticação segura via **2FA** em todas as contas com acesso de escrita.  
-- Tokens e secrets armazenados apenas em **GitHub Actions Secrets**.  
-- Dependências monitoradas automaticamente via **Dependabot Security Alerts**.  
-- Repositórios protegidos por **branch protection rules** e **assinatura de commits (GPG)**.  
-- Política de **revisão obrigatória** para pull requests que modifiquem o core do aplicativo.  
+| Versão | Suportada |
+|--------|-----------|
+| `latest` | ✅ Suportada |
+| versões antigas | ❌ Não suportadas |
 
 ---
 
-## 🧰 Relato de Vulnerabilidades
+## 🛡️ Relatando Vulnerabilidades
 
-Se você identificar uma falha de segurança:
+Se você encontrou uma vulnerabilidade, **obrigado!**  
+Sua contribuição ajuda a manter este projeto seguro para todos.
 
-1. **Não abra uma issue pública.**  
-2. Documente o comportamento inesperado, versão utilizada e possível impacto.  
-3. Entre em contato de forma privada (canal de segurança será divulgado futuramente).  
+### 📩 Como reportar
 
-Todas as vulnerabilidades válidas serão analisadas, confirmadas e corrigidas de forma prioritária.  
-Agradecemos contribuições responsáveis e éticas.
+Envie um e-mail para:
 
----
+```
+ga2951057@gmail.com
+```
 
-## 🧩 Escopo
+Inclua:
 
-Esta política cobre:
+- descrição clara da vulnerabilidade  
+- passos para reproduzir  
+- impacto esperado  
+- possível sugestão de correção (opcional)
 
-- Código-fonte do **Lynx Assistant** e seus módulos oficiais.  
-- Scripts e automações incluídos no repositório principal.  
-- Fluxos CI/CD e dependências declaradas em `requirements.txt`.
-
-Não cobre:
-- Repositórios de terceiros ou forks não oficiais.  
-- Implementações externas que utilizem o Lynx sem auditoria de segurança.
+**Não abra uma issue pública** contendo detalhes sensíveis.
 
 ---
 
-## 📜 Política de Divulgação
+## 🔏 Boas Práticas Adotadas
 
-Quando uma vulnerabilidade for confirmada e corrigida:
-- A correção será incluída no próximo **release estável**.  
-- O changelog refletirá a natureza da atualização (sem detalhes sensíveis).  
-- O relatório técnico poderá ser publicado após mitigação completa.
-
----
-
-## 🔐 Recomendações aos Contribuidores
-
-Antes de contribuir:
-- Ative **Two-Factor Authentication (2FA)** na sua conta GitHub.  
-- Utilize **chaves SSH (ed25519)** para commits e pushes.  
-- Assine commits com **GPG** sempre que possível.  
-- Não envie senhas, tokens, nem arquivos confidenciais em commits.  
-- Prefira variáveis de ambiente e secrets para qualquer configuração sensível.  
+- ✔ Segredo TOTP armazenado criptografado (AES/Fernet)  
+- ✔ QR Code gerado localmente  
+- ✔ Dependências monitoradas via Dependabot  
+- ✔ Separação entre setup e verificação  
+- ✔ Zero exposição de segredos em texto plano  
 
 ---
 
-<p align="center">
-  <b>Lynx Assistant Project</b><br/>
-  <i>Construindo ferramentas seguras, abertas e responsáveis.</i>
-</p>
+## 🔧 Dependências e Segurança
+
+As dependências são verificadas automaticamente via Dependabot:
+
+- Atualizações semanais  
+- Correções automáticas de CVEs  
+
+---
+
+## ⚠️ Divulgação Responsável
+
+1. Envie o relatório por e-mail privado  
+2. Aguarde confirmação (até 72h)  
+3. Aguarde correção antes da divulgação pública  
+
+---
+
+## 🧩 Contribuindo com Segurança
+
+- Não inclua segredos no código  
+- Evite bibliotecas inseguras  
+- Utilize sempre boas práticas modernas de segurança  
